@@ -1,0 +1,52 @@
+
+    <h2 class="listagem-titulo">Lista de produtos</h2>
+  
+  
+    <button mat-raised-button id="botao-adicionar" color="warn" [routerLink]="['/produto/formulario', '']">adicionar produto</button>
+    <br/>
+    <br/>
+    <br/> 
+
+    <div class="mat-elevation-z8 listagem-tabela-produtos">
+    
+      <table mat-table [dataSource]="dataSourceProduto">
+    
+        <ng-container matColumnDef="urlImagem">
+          <th mat-header-cell *matHeaderCellDef> Produto </th>
+          <td mat-cell *matCellDef="let produto">
+            <img class="imagem-produto" src="{{produto.urlImagem}}" alt=""> 
+         </td>
+        </ng-container>
+    
+        <ng-container matColumnDef="nome">
+          <th mat-header-cell *matHeaderCellDef> Nome </th>
+          <td mat-cell *matCellDef="let produto"> {{produto.nome}} </td>
+        </ng-container>
+    
+        <ng-container matColumnDef="valor">
+          <th mat-header-cell *matHeaderCellDef> Valor R$ </th>
+          <td mat-cell *matCellDef="let produto"> {{produto.valor | currency : 'R$ ' }} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="remover">
+          <th mat-header-cell *matHeaderCellDef> </th>
+          <td mat-cell *matCellDef="let produto"> 
+
+            <button mat-stroked-button color="warn" (click)="abrirDialogRemover(produto.id)">remover</button>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="detalhe">
+          <th mat-header-cell *matHeaderCellDef> </th>
+          <td mat-cell *matCellDef="let produto"> 
+
+           <a mat-raised-button color="primary" [routerLink]="['/produto/formulario', produto.id]">ver produto</a>
+          </td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="colunas"></tr>
+        <tr mat-row *matRowDef="let row; columns: colunas;"></tr>
+      </table>
+    
+      <mat-paginator [pageSizeOptions]="[5, 10]" showFirstLastButtons></mat-paginator>
+    </div>

@@ -1,0 +1,25 @@
+.listagem-tabela-produtos {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+h2.listagem-titulo{
+  margin-left: 15px;
+}
+
+.imagem-produto{
+    width: 80px;
+    height: 80px;
+}
+
+th.mat-header-cell  {
+  padding-right: 10px;
+}
+
+td.mat-cell {
+  padding-right: 10px;
+}
+
+#botao-adicionar{
+  float: right;
+}

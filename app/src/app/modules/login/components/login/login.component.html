@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-content>
+      <form [formGroup]="formulario" (ngSubmit)="submeter()">
+        <h2>Log In na sua conta</h2>
+        <mat-error *ngIf="loginInvalido">
+          {{loginMensagem}}
+        </mat-error>
+        <br/>
+        <mat-form-field class="full-width-input">
+          <input matInput placeholder="Usuário" formControlName="usuario" required>
+          <mat-error>Usuário inválido</mat-error>
+        </mat-form-field>
+        <mat-form-field class="full-width-input">
+          <input matInput type="password" placeholder="Senha" formControlName="senha" required>
+          <mat-error>Senha inválida</mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary">Entrar</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

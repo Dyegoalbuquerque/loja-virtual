@@ -1,0 +1,36 @@
+
+<mat-card>
+  <mat-card-content>
+    <form [formGroup]="formulario"s>
+      <h2>Dados do produto</h2>
+      <br/>
+      <br/>
+      <mat-form-field class="formulario-produto-nome full-width-input">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Ex. Tv led 49'" formControlName="nome" required [(ngModel)]="produto.nome">
+        <mat-error>Nome inválido</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="formulario-produto-valor full-width-input">
+        <mat-label>Valor R$</mat-label>
+        <input matInput placeholder="Ex. R$ 1.500,00" formControlName="valor" required [(ngModel)]="produto.valor">
+        <mat-error>Valor inválido</mat-error>
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="formulario-produto-url full-width-input">
+        <mat-label>Url da imagem</mat-label>
+        <input matInput placeholder="Ex. www.google.com" formControlName="urlImagem" required [(ngModel)]="produto.urlImagem">
+        <mat-error>Url da imagem inválido</mat-error>
+      </mat-form-field>
+
+       <br/>
+       <br/>
+
+      <a mat-raised-button class="formulario-produto-cancelar" (click)="redirecionarListagem()" target="_blank">cancelar</a>
+      <button mat-raised-button class="formulario-produto-salvar" color="primary" (click)="submeter()">salvar</button>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+
+  

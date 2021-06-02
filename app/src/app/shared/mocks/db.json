@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": 2,
+      "urlImagem": "https://static.todamateria.com.br/upload/ab/ac/abacate-cke.jpg",
+      "nome": "Helium laksjdlak sdlkajsd lkajsdlkasjd lakjdl fuuu",
+      "valor": 4.0026
+    },
+    {
+      "id": 4,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Lithium",
+      "valor": 6.941
+    },
+    {
+      "id": 8,
+      "urlImagem": "https://static.todamateria.com.br/upload/ab/ac/abacate-cke.jpg",
+      "nome": "Nitrogen",
+      "valor": 14.0067
+    },
+    {
+      "id": 9,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Oxygen",
+      "valor": 15.9994
+    },
+    {
+      "id": 10,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Fluorine",
+      "valor": 18.9984
+    },
+    {
+      "id": 11,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Neon",
+      "valor": 20.1797
+    },
+    {
+      "id": 12,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Sodium",
+      "valor": 22.9897
+    },
+    {
+      "id": 16,
+      "urlImagem": "https://static.todamateria.com.br/upload/ab/ac/abacate-cke.jpg",
+      "nome": "Phosphorus",
+      "valor": 30.9738
+    },
+    {
+      "id": 17,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Sulfur",
+      "valor": 32.065
+    },
+    {
+      "id": 18,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Chlorine",
+      "valor": 35.453
+    },
+    {
+      "id": 19,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Argon",
+      "valor": 39.948
+    },
+    {
+      "id": 20,
+      "urlImagem": "https://http2.mlstatic.com/D_NQ_NP_752488-MLB31841990642_082019-O.jpg",
+      "nome": "Potassium",
+      "valor": 39.0983
+    }
+  ]
+}

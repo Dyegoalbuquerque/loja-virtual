@@ -1,0 +1,27 @@
+mat-card {
+    width: 400px;
+    height: 300px;
+    margin: 2em auto;
+}
+
+mat-form-field.formulario-produto-nome {
+    padding-right: 10px;
+    width: 280px;
+}
+
+mat-form-field.formulario-produto-valor {
+    width: 100px;
+}
+
+mat-form-field.formulario-produto-url {
+    width: 390px;
+}
+
+a.formulario-produto-cancelar{
+    margin-right: 10px;
+}
+
+button.formulario-produto-salvar{
+    padding-left: 25px;
+    padding-right: 25px;
+}

@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj": {}
+  },
+  "projects": {
+    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj",
+        "projectName": "loja-virtual-web-api",
+        "projectPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj",
+        "packagesPath": "/Users/dyegovasconcelosdealbuquerque/.nuget/packages/",
+        "outputPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dyegovasconcelosdealbuquerque/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

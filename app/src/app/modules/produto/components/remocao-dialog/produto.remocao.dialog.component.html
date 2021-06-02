@@ -1,0 +1,15 @@
+<div class="produto-dialog-titulo">
+  <h1 mat-dialog-title>Deseja remover este produto ?</h1>
+</div>
+<div mat-dialog-content>
+    <img class="imagem-produto" src="{{produto.urlImagem}}" alt="">
+    <br/>
+    <mat-label>Nome: {{produto.nome}}</mat-label>
+    <br/>  
+    <br/>
+    <mat-label>Valor: {{produto.valor | currency : 'R$ ' }}</mat-label>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="fechar()">cancelar</button>
+  <button mat-button (click)="remover(produto.id)" color="warn" cdkFocusInitial>remover</button>
+</div>
