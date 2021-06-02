@@ -114,7 +114,7 @@ namespace loja_virtual_web_api.Controllers
 
                 await this.ProdutoService.Remover(id);
 
-                return Ok($"Deletado com sucesso {id}");
+                return Ok(id);
             }catch(ArgumentException e)
             {
                 return NotFound(e.Message);
