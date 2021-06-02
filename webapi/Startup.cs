@@ -29,7 +29,7 @@ namespace loja_virtual_web_api
             services.AddDbContext<LojaVirtualDBContext>();
             
             services.AddTransient<IProdutoRepository, ProdutoRepository>();
-            services.AddTransient<IProdutoService, ProdutoService>();          
+            services.AddTransient<IProdutoService, ProdutoService>();   
 
             services.AddCors(options =>
             {   
@@ -38,10 +38,9 @@ namespace loja_virtual_web_api
                 {
                      builder.AllowAnyOrigin() 
                             .AllowAnyMethod()
-                            .AllowAnyHeader()
-                            .AllowCredentials();
+                            .AllowAnyHeader();
                 });               
-            });
+            });       
 
             services.AddSwaggerGen(c =>
             {
@@ -55,10 +54,10 @@ namespace loja_virtual_web_api
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseCors(options => options.AllowAnyOrigin());  
 
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseSwagger();
           

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj": {}
+    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/loja-virtual-web-api.csproj": {}
   },
   "projects": {
-    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj": {
+    "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/loja-virtual-web-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj",
+        "projectUniqueName": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/loja-virtual-web-api.csproj",
         "projectName": "loja-virtual-web-api",
-        "projectPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj",
+        "projectPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/loja-virtual-web-api.csproj",
         "packagesPath": "/Users/dyegovasconcelosdealbuquerque/.nuget/packages/",
-        "outputPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/obj/",
+        "outputPath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

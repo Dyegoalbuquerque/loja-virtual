@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wDc3HEZR4IFfmqUSR+eP3cG8KlW4dXHh99+npryqqcYAeYJIYsP2fv6MZ1cZ913keu3le3VqX16ZCKpL2tDTCw==",
+  "dgSpecHash": "hA87PanSkF82naGjPM1BAAG3czLh19Lv6oKeu1oqU8zj5pAYfrlQkUNzQRzMmLjJHEuxWOiaZejkCF4O3YEMJw==",
   "success": true,
-  "projectFilePath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual-web-api/loja-virtual-web-api.csproj",
+  "projectFilePath": "/Users/dyegovasconcelosdealbuquerque/Desktop/loja-virtual/webapi/loja-virtual-web-api.csproj",
   "expectedPackageFiles": [
     "/Users/dyegovasconcelosdealbuquerque/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dyegovasconcelosdealbuquerque/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

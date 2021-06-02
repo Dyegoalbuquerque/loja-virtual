@@ -1,8 +1,8 @@
-const producao = false;
+const producao = true;
 
 export const environment = {
   producao: producao,
-  urlRoot: producao ? 'https://dev.sitemercado.com.br' : 'http://localhost:3000',
+  urlRoot: producao ? 'http://localhost:5000' : 'http://localhost:3000',
   urlSufixo: producao ? '/api' : '',
 };
 
