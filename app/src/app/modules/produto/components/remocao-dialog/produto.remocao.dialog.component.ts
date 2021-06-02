@@ -24,7 +24,7 @@ export class ProdutoRemocaoDialogComponent implements OnInit {
     await this.obterProduto(this.produto.id);
   }
 
-  async obterProduto(id: number) {console.log(id)
+  async obterProduto(id: number) {
 
     try {
       this.produto = await this.produtoService.obterProduto(id);

@@ -7,19 +7,19 @@
       <br/>
       <mat-form-field class="formulario-produto-nome full-width-input">
         <mat-label>Nome</mat-label>
-        <input matInput placeholder="Ex. Tv led 49'" formControlName="nome" required [(ngModel)]="produto.nome">
+        <input type="text" matInput placeholder="Ex. Tv led 49'" formControlName="nome" required [(ngModel)]="produto.nome">
         <mat-error>Nome inválido</mat-error>
       </mat-form-field>
 
       <mat-form-field class="formulario-produto-valor full-width-input">
         <mat-label>Valor R$</mat-label>
-        <input matInput placeholder="Ex. R$ 1.500,00" formControlName="valor" required [(ngModel)]="produto.valor">
+        <input type="number" matInput placeholder="Ex. R$ 1.500,00" formControlName="valor" required [(ngModel)]="produto.valor">
         <mat-error>Valor inválido</mat-error>
       </mat-form-field>
       <br/>
       <mat-form-field class="formulario-produto-url full-width-input">
         <mat-label>Url da imagem</mat-label>
-        <input matInput placeholder="Ex. www.google.com" formControlName="urlImagem" required [(ngModel)]="produto.urlImagem">
+        <input type="text" matInput placeholder="Ex. www.google.com" formControlName="urlImagem" required [(ngModel)]="produto.urlImagem">
         <mat-error>Url da imagem inválido</mat-error>
       </mat-form-field>
 

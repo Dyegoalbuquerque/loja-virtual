@@ -34,8 +34,8 @@ export class ProdutoService {
     return retorno;
   }
 
-  private async remover(id: number): Promise<number> {
-    let retorno = await this.httpclient.delete<number>(`${this.apiUrl}/${id}`).toPromise();
+  private async remover(id: number): Promise<any> {
+    let retorno = await this.httpclient.delete<any>(`${this.apiUrl}/${id}`).toPromise();
     return retorno;
   }
   
@@ -78,7 +78,7 @@ export class ProdutoService {
     }
 }
 
-  public async removerProduto(id: number): Promise<number> {
+  public async removerProduto(id: number): Promise<any> {
     try {
       return await this.remover(id);
      } catch (err) {

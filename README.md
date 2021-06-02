@@ -35,7 +35,11 @@ Ao clonar o repositório do projeto executar os seguintes passos em ordem:
 
 6- Executar o comando `npm install` para baixar as dependências
 
-7- E por último executar o comando `ng serve -o` e está pronto pra usasr
+7- E por último executar o comando `npm start` e está pronto pra usasr
+
+## Test angular
+
+Executar o comando `npm test`
 
 ## Swagger 
 
