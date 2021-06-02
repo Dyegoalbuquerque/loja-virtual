@@ -3,6 +3,7 @@ app/dist
 app/tmp
 app/out-tsc
 webapi/bin
+webapi/obj/Debug/
 
 # Only exists if Bazel was run
 /bazel-out
